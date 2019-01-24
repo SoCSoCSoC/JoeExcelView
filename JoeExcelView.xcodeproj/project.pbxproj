@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83A2A941DFA8D340018FA38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2A931DFA8D340018FA38 /* main.m */; };
+		D83A2A971DFA8D340018FA38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2A961DFA8D340018FA38 /* AppDelegate.m */; };
+		D83A2A9A1DFA8D340018FA38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2A991DFA8D340018FA38 /* ViewController.m */; };
+		D83A2A9D1DFA8D340018FA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83A2A9B1DFA8D340018FA38 /* Main.storyboard */; };
+		D83A2A9F1DFA8D340018FA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83A2A9E1DFA8D340018FA38 /* Assets.xcassets */; };
+		D83A2AA21DFA8D340018FA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83A2AA01DFA8D340018FA38 /* LaunchScreen.storyboard */; };
+		D83A2AAB1DFA8D8B0018FA38 /* JContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2AAA1DFA8D8B0018FA38 /* JContentTableView.m */; };
+		D83A2AB21DFA8E360018FA38 /* JContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2AB01DFA8E360018FA38 /* JContentTableViewCell.m */; };
+		D83A2AB71DFA921B0018FA38 /* ContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2AB51DFA921B0018FA38 /* ContentCollectionViewCell.m */; };
+		D83A2ABD1DFA9EB80018FA38 /* TopCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2ABC1DFA9EB80018FA38 /* TopCollectionView.m */; };
+		D83A2AC01DFA9EC60018FA38 /* TopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2ABF1DFA9EC60018FA38 /* TopCollectionViewCell.m */; };
+		D83A2AC31DFA9FB90018FA38 /* JoeExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A2AC21DFA9FB90018FA38 /* JoeExcelView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D83A2A8F1DFA8D340018FA38 /* JoeExcelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoeExcelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83A2A931DFA8D340018FA38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D83A2A951DFA8D340018FA38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D83A2A961DFA8D340018FA38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D83A2A981DFA8D340018FA38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D83A2A991DFA8D340018FA38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D83A2A9C1DFA8D340018FA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83A2A9E1DFA8D340018FA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83A2AA11DFA8D340018FA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D83A2AA31DFA8D340018FA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83A2AA91DFA8D8B0018FA38 /* JContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JContentTableView.h; sourceTree = "<group>"; };
+		D83A2AAA1DFA8D8B0018FA38 /* JContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JContentTableView.m; sourceTree = "<group>"; };
+		D83A2AAF1DFA8E360018FA38 /* JContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JContentTableViewCell.h; sourceTree = "<group>"; };
+		D83A2AB01DFA8E360018FA38 /* JContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JContentTableViewCell.m; sourceTree = "<group>"; };
+		D83A2AB41DFA921B0018FA38 /* ContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewCell.h; sourceTree = "<group>"; };
+		D83A2AB51DFA921B0018FA38 /* ContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewCell.m; sourceTree = "<group>"; };
+		D83A2ABB1DFA9EB80018FA38 /* TopCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionView.h; sourceTree = "<group>"; };
+		D83A2ABC1DFA9EB80018FA38 /* TopCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionView.m; sourceTree = "<group>"; };
+		D83A2ABE1DFA9EC60018FA38 /* TopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCollectionViewCell.h; sourceTree = "<group>"; };
+		D83A2ABF1DFA9EC60018FA38 /* TopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCollectionViewCell.m; sourceTree = "<group>"; };
+		D83A2AC11DFA9FB80018FA38 /* JoeExcelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoeExcelView.h; sourceTree = "<group>"; };
+		D83A2AC21DFA9FB90018FA38 /* JoeExcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoeExcelView.m; sourceTree = "<group>"; };
+		D83A2AC41DFAA9C30018FA38 /* JoeExcel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeExcel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83A2A8C1DFA8D340018FA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83A2A861DFA8D340018FA38 = {
+			isa = PBXGroup;
+			children = (
+				D83A2A911DFA8D340018FA38 /* JoeExcelView */,
+				D83A2A901DFA8D340018FA38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D83A2A901DFA8D340018FA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2A8F1DFA8D340018FA38 /* JoeExcelView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83A2A911DFA8D340018FA38 /* JoeExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2A951DFA8D340018FA38 /* AppDelegate.h */,
+				D83A2A961DFA8D340018FA38 /* AppDelegate.m */,
+				D83A2A981DFA8D340018FA38 /* ViewController.h */,
+				D83A2A991DFA8D340018FA38 /* ViewController.m */,
+				D83A2AC71DFAAEB90018FA38 /* JoeExcelView */,
+				D83A2AC61DFAAEA90018FA38 /* 顶部的横向序号 */,
+				D83A2AC51DFAAE8B0018FA38 /* 底部的TableView */,
+				D83A2A9B1DFA8D340018FA38 /* Main.storyboard */,
+				D83A2A9E1DFA8D340018FA38 /* Assets.xcassets */,
+				D83A2AA01DFA8D340018FA38 /* LaunchScreen.storyboard */,
+				D83A2AA31DFA8D340018FA38 /* Info.plist */,
+				D83A2A921DFA8D340018FA38 /* Supporting Files */,
+			);
+			path = JoeExcelView;
+			sourceTree = "<group>";
+		};
+		D83A2A921DFA8D340018FA38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2A931DFA8D340018FA38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D83A2AC51DFAAE8B0018FA38 /* 底部的TableView */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2AA91DFA8D8B0018FA38 /* JContentTableView.h */,
+				D83A2AAA1DFA8D8B0018FA38 /* JContentTableView.m */,
+				D83A2AAF1DFA8E360018FA38 /* JContentTableViewCell.h */,
+				D83A2AB01DFA8E360018FA38 /* JContentTableViewCell.m */,
+				D83A2AB41DFA921B0018FA38 /* ContentCollectionViewCell.h */,
+				D83A2AB51DFA921B0018FA38 /* ContentCollectionViewCell.m */,
+			);
+			name = "底部的TableView";
+			sourceTree = "<group>";
+		};
+		D83A2AC61DFAAEA90018FA38 /* 顶部的横向序号 */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2ABB1DFA9EB80018FA38 /* TopCollectionView.h */,
+				D83A2ABC1DFA9EB80018FA38 /* TopCollectionView.m */,
+				D83A2ABE1DFA9EC60018FA38 /* TopCollectionViewCell.h */,
+				D83A2ABF1DFA9EC60018FA38 /* TopCollectionViewCell.m */,
+			);
+			name = "顶部的横向序号";
+			sourceTree = "<group>";
+		};
+		D83A2AC71DFAAEB90018FA38 /* JoeExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2AC41DFAA9C30018FA38 /* JoeExcel.h */,
+				D83A2AC11DFA9FB80018FA38 /* JoeExcelView.h */,
+				D83A2AC21DFA9FB90018FA38 /* JoeExcelView.m */,
+			);
+			name = JoeExcelView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83A2A8E1DFA8D340018FA38 /* JoeExcelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83A2AA61DFA8D340018FA38 /* Build configuration list for PBXNativeTarget "JoeExcelView" */;
+			buildPhases = (
+				D83A2A8B1DFA8D340018FA38 /* Sources */,
+				D83A2A8C1DFA8D340018FA38 /* Frameworks */,
+				D83A2A8D1DFA8D340018FA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoeExcelView;
+			productName = JoeExcelView;
+			productReference = D83A2A8F1DFA8D340018FA38 /* JoeExcelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83A2A871DFA8D340018FA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = QQ;
+				TargetAttributes = {
+					D83A2A8E1DFA8D340018FA38 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D83A2A8A1DFA8D340018FA38 /* Build configuration list for PBXProject "JoeExcelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83A2A861DFA8D340018FA38;
+			productRefGroup = D83A2A901DFA8D340018FA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83A2A8E1DFA8D340018FA38 /* JoeExcelView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83A2A8D1DFA8D340018FA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83A2AA21DFA8D340018FA38 /* LaunchScreen.storyboard in Resources */,
+				D83A2A9F1DFA8D340018FA38 /* Assets.xcassets in Resources */,
+				D83A2A9D1DFA8D340018FA38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83A2A8B1DFA8D340018FA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83A2AC31DFA9FB90018FA38 /* JoeExcelView.m in Sources */,
+				D83A2A9A1DFA8D340018FA38 /* ViewController.m in Sources */,
+				D83A2A971DFA8D340018FA38 /* AppDelegate.m in Sources */,
+				D83A2AB71DFA921B0018FA38 /* ContentCollectionViewCell.m in Sources */,
+				D83A2AAB1DFA8D8B0018FA38 /* JContentTableView.m in Sources */,
+				D83A2AC01DFA9EC60018FA38 /* TopCollectionViewCell.m in Sources */,
+				D83A2ABD1DFA9EB80018FA38 /* TopCollectionView.m in Sources */,
+				D83A2A941DFA8D340018FA38 /* main.m in Sources */,
+				D83A2AB21DFA8E360018FA38 /* JContentTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D83A2A9B1DFA8D340018FA38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83A2A9C1DFA8D340018FA38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D83A2AA01DFA8D340018FA38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83A2AA11DFA8D340018FA38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D83A2AA41DFA8D340018FA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83A2AA51DFA8D340018FA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83A2AA71DFA8D340018FA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JoeExcelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ.JoeExcelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D83A2AA81DFA8D340018FA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JoeExcelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ.JoeExcelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83A2A8A1DFA8D340018FA38 /* Build configuration list for PBXProject "JoeExcelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83A2AA41DFA8D340018FA38 /* Debug */,
+				D83A2AA51DFA8D340018FA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83A2AA61DFA8D340018FA38 /* Build configuration list for PBXNativeTarget "JoeExcelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83A2AA71DFA8D340018FA38 /* Debug */,
+				D83A2AA81DFA8D340018FA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D83A2A871DFA8D340018FA38 /* Project object */;
+}
